@@ -41,7 +41,7 @@
 
                                         </td>
 
-                                        <td class="price">{{ number_format($item->getPriceSum()) }}</td>
+                                        <td class="price">{{ number_format($item->price) }}</td>
 
                                         <td class="quantity">
                                             <form class="d-flex justify-content-between" action="{{ route('cart.update') }}"
